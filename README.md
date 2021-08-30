@@ -1,0 +1,1 @@
+A web app to tell you your loss and profit on the share market.
