@@ -1,0 +1,57 @@
+:root {
+  --bg-color: #22252a;
+  --btn-bg-color: #2563eb;
+  --text-color: #f3f3f3;
+  --secodary-color: #1e2025;
+}
+
+body {
+  text-align: center;
+  margin: 5em auto;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.inputs,
+#sumbit-btn {
+  text-align: center;
+  display: block;
+  margin: 1em auto;
+  padding: 1.4rem 1rem;
+  width: 27rem;
+  color: var(--text-color);
+  background-color: var(--secodary-color);
+  border: none;
+}
+
+#sumbit-btn {
+  background-color: var(--btn-bg-color);
+  color: var(--text-color);
+  font-weight: 700;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 29rem;
+  margin-top: 1rem;
+}
+
+#output {
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--text-color);
+}
